@@ -1,0 +1,40 @@
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1170px
+) !default;
+
+$body-color: #062033;
+$navbar-brand-font-size: 1.75rem;
+$navbar-dark-color: #fff;
+$navbar-nav-link-padding-x: 4px;
+$navbar-padding-y: 0;
+// $navbar-padding-x: 0;
+$font-family-base: 'Open Sans', sans-serif;
+$carousel-indicator-width: 6px; 
+$carousel-indicator-height: 6px;
+$font-size-base: 0.8125rem;
+$h1-font-size: 62px;
+$h2-font-size: 28px;
+$h3-font-size: 20px;
+$h4-font-size: 18px;
+$h5-font-size: 14px;
+$primary: #0eb493;
+$btn-padding-y-sm: 0;
+$btn-padding-x-sm: 18px;
+$btn-font-size-sm: 14px;
+$btn-border-radius-sm: 5px;
+$btn-font-weight: 700;
+$btn-border-width: none;
+$btn-line-height-sm: 30px;
+$input-font-family: 'Open Sans', sans-serif;
+$input-font-size: 13px;
+$input-placeholder-color: #5b646e;
+$input-padding-y: 0;
+$input-padding-x: 0;
+$input-line-height: 3.85;
+$input-border-radius: 0;
+$input-border-width: 0;
+$navbar-dark-hover-color: none;
+
