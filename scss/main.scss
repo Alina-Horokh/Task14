@@ -1,4 +1,3 @@
-@import 'bootstrap/bootstrap';
 @mixin clearfix{
   &:after{
     content: '';
@@ -23,6 +22,7 @@ a{
     color: #062033;
   }
 }
+
 h2{
   text-transform: uppercase;
   color: #0eb493;
@@ -83,15 +83,18 @@ ul, ol{
     } 
   }
 }
+
 .logo-descr{
   margin-top: 6px;
 }
+
 .logo{
 	font-family: 'Pacifico', cursive;
 	margin-right: 31px;
   letter-spacing: 0.8px;
   line-height: 64px;
 }
+
 .logo-text{
   margin-top: 5px;
   padding: 0 0 0 20px;
@@ -807,7 +810,7 @@ ul, ol{
   }
   .btn-submit{
     padding-left: 35px;
-    margin-top: 2px;
+    margin: 2px -17px 0;
     margin-right: -17px;
     background: #fff;
     line-height: 36px;
@@ -851,7 +854,7 @@ ul, ol{
         display: block;
         &:hover{
           svg{
-            fill: #46515a;
+            fill-opacity: 0.4;
           }
         }
         span{
@@ -863,6 +866,7 @@ ul, ol{
           svg{
             width: 26px;
             height: 26px;
+            fill-opacity:0.2;
           }
           &.icon-behance svg{
             height: 17px;
@@ -875,7 +879,7 @@ ul, ol{
           }
           &.icon-google svg{
             height: 23px;
-            fill-opacity:0.2;
+            
           }
         }
       }      
@@ -953,11 +957,12 @@ ul, ol{
   transition: all 0.6s ease;
   .email-footer{
     width: 100%;
-    padding: 5px;
+    padding: 5px 46px 5px 5px;
     background: #1ea78d;
     @include border(#fff, 2px, 3px);
     color: #fff;
     line-height: 32px;
+    z-index: 1;
   }
   .subscribe{
     width: 46px;
@@ -966,6 +971,7 @@ ul, ol{
     border: none;
     right: 15px;
     background: transparent;
+    z-index: 2;
     svg{
       width: 19px;
       height: 13px; 
