@@ -13,5 +13,10 @@ $(document).ready(function(){
 		},
 		allowPageScroll: "vertical"
 	});
+
+	const button = $('#navbar-toggler');
+	const header = $('#header-descr');
+
+	button.on('click', () => header.toggleClass('header-descr-open'));
 });
 

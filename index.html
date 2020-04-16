@@ -10,39 +10,41 @@
 </head>
 <body>
   
-	<header class="header-wrapper">
-	  	<div class="container">
-	  		<div class="row">
-	  			<nav class="navbar navbar-expand-lg navbar-dark main-nav">
-	  			    <div class="logo-descr d-flex">
-	                    <a class="navbar-brand logo" href="#">Brandi</a>
-	                    <span class="badge logo-text align-self-center">I’am your tag line</span>
-	                </div>
-	  			    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-	  			        <span class="navbar-toggler-icon"></span>
-	  			    </button>
-	  			    <div class="collapse navbar-collapse align-self-start justify-content-end" id="navbarNav">
-	  			        <ul class="navbar-nav">
-	  			            <li class="nav-item ">
-	  			                <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-	  			            </li>
-	  			            <li class="nav-item">
-	  			                <a class="nav-link" href="#">Features</a>
-	  			            </li>
-	  			            <li class="nav-item">
-	  			                <a class="nav-link" href="#">Works</a>
-	  			            </li>
-	                        <li class="nav-item">
-	                            <a class="nav-link" href="#">Team</a>
-	                        </li>
-	                        <li class="nav-item">
-	                            <a class="nav-link" href="#">Contact</a>
-	                        </li>
-	  			        </ul>
-	  			    </div>
-				</nav>
-	  		</div>
-	  	</div>	
+	<header class="header-wrapper" >
+        <div class="header-descr" id="header-descr">
+		  	<div class="container">
+		  		<div class="row">
+		  			<nav class="navbar navbar-expand-lg navbar-dark main-nav pl-lg-0 pr-lg-0">
+		  			    <div class="logo-descr d-flex">
+		                    <a class="navbar-brand logo" href="#">Brandi</a>
+		                    <span class="badge logo-text d-none d-sm-inline-block align-self-center">I’am your tag line</span>
+		                </div>
+		  			    <button class="navbar-toggler" id="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		  			        <span class="navbar-toggler-icon"></span>
+		  			    </button>
+		  			    <div class="collapse navbar-collapse align-self-start justify-content-end" id="navbarNav">
+		  			        <ul class="navbar-nav">
+		  			            <li class="nav-item ">
+		  			                <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+		  			            </li>
+		  			            <li class="nav-item">
+		  			                <a class="nav-link" href="#">Features</a>
+		  			            </li>
+		  			            <li class="nav-item">
+		  			                <a class="nav-link" href="#">Works</a>
+		  			            </li>
+		                        <li class="nav-item">
+		                            <a class="nav-link" href="#">Team</a>
+		                        </li>
+		                        <li class="nav-item">
+		                            <a class="nav-link" href="#">Contact</a>
+		                        </li>
+		  			        </ul>
+		  			    </div>
+					</nav>
+		  		</div>
+		  	</div>
+        </div>
 	</header>
 
 	<div class="gallery-wrapper">
@@ -112,56 +114,125 @@
 			            </span>
 			        </h2>
 			    </div>
-			</div>        
-		        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-					<ol class="carousel-indicators">
-					    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-					    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-					    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-					</ol>
-				    <div class="carousel-inner">
-					    <div class="carousel-item active">
-					        <div class="row justify-content-md-center">
-						        <div class="col-sm-12 col-md-6 col-lg-4 features-content">
-						            <span class="icon-feather">
-						            	<svg>
-							                <use xlink:href="images/svg.svg#feather"></use>
-							            </svg>
-						            </span>
-						            <div class="feature-item">
-							            <h3>Branding</h3>
-							            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
-						            </div>
-						        </div>
-						        <div class="col-sm-12 col-md-6 col-lg-4 features-content ">
-						            <span class="icon-pencil">
-						            	<svg>
-							                <use xlink:href="images/svg.svg#pencil"></use>
-							            </svg>
-						            </span>
-						            <div class="feature-item">
-							            <h3>Development</h3>
-							            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
-						            </div>
-						        </div>
-						        <div class="col-sm-12 col-md-8 col-lg-4 features-content">
-						            <span class="icon-megaphone">
-						            	<svg>
-							                <use xlink:href="images/svg.svg#megaphone"></use>
-							            </svg>
-						            </span>
-						            <div class="feature-item">
-							            <h3>Consulting</h3>
-							            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
-						            </div>
+			</div>
+	        
+	        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+				    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				</ol>
+			    <div class="carousel-inner">
+				    <div class="carousel-item active">
+				        <div class="row justify-content-md-center">
+					        <div class="col-sm-12 col-md-6 col-lg-4 features-content">
+					            <span class="icon-feather d-inline-block">
+					            	<svg>
+						                <use xlink:href="images/svg.svg#feather"></use>
+						            </svg>
+					            </span>
+					            <div class="feature-item">
+						            <h3>Branding</h3>
+						            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
 					            </div>
 					        </div>
-					    <div class="carousel-item">
-					        <img src="..." class="d-block w-100" alt="...">
-					    </div>
-					    <div class="carousel-item">
-					        <img src="..." class="d-block w-100" alt="...">
-					    </div>
+					        <div class="col-sm-12 col-md-6 col-lg-4 features-content ">
+					            <span class="icon-pencil">
+					            	<svg>
+						                <use xlink:href="images/svg.svg#pencil"></use>
+						            </svg>
+					            </span>
+					            <div class="feature-item">
+						            <h3>Development</h3>
+						            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+					            </div>
+					        </div>
+					        <div class="col-sm-12 col-md-8 col-lg-4 features-content">
+					            <span class="icon-megaphone">
+					            	<svg>
+						                <use xlink:href="images/svg.svg#megaphone"></use>
+						            </svg>
+					            </span>
+					            <div class="feature-item">
+						            <h3>Consulting</h3>
+						            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+					            </div>
+				            </div>
+				        </div>					    
+				    </div>
+				    <div class="carousel-item">
+				        <div class="row justify-content-md-center">
+					        <div class="col-sm-12 col-md-6 col-lg-4 features-content">
+					            <span class="icon-feather d-inline-block">
+					            	<svg>
+						                <use xlink:href="images/svg.svg#feather"></use>
+						            </svg>
+					            </span>
+					            <div class="feature-item">
+						            <h3>Branding</h3>
+						            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+					            </div>
+					        </div>
+					        <div class="col-sm-12 col-md-6 col-lg-4 features-content ">
+					            <span class="icon-pencil">
+					            	<svg>
+						                <use xlink:href="images/svg.svg#pencil"></use>
+						            </svg>
+					            </span>
+					            <div class="feature-item">
+						            <h3>Development</h3>
+						            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+					            </div>
+					        </div>
+					        <div class="col-sm-12 col-md-8 col-lg-4 features-content">
+					            <span class="icon-megaphone">
+					            	<svg>
+						                <use xlink:href="images/svg.svg#megaphone"></use>
+						            </svg>
+					            </span>
+					            <div class="feature-item">
+						            <h3>Consulting</h3>
+						            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+					            </div>
+				            </div>
+				        </div>
+				    </div>
+				    <div class="carousel-item">
+				        <div class="row justify-content-md-center">
+					        <div class="col-sm-12 col-md-6 col-lg-4 features-content">
+					            <span class="icon-feather d-inline-block">
+					            	<svg>
+						                <use xlink:href="images/svg.svg#feather"></use>
+						            </svg>
+					            </span>
+					            <div class="feature-item">
+						            <h3>Branding</h3>
+						            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+					            </div>
+					        </div>
+					        <div class="col-sm-12 col-md-6 col-lg-4 features-content ">
+					            <span class="icon-pencil">
+					            	<svg>
+						                <use xlink:href="images/svg.svg#pencil"></use>
+						            </svg>
+					            </span>
+					            <div class="feature-item">
+						            <h3>Development</h3>
+						            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+					            </div>
+					        </div>
+					        <div class="col-sm-12 col-md-8 col-lg-4 features-content">
+					            <span class="icon-megaphone">
+					            	<svg>
+						                <use xlink:href="images/svg.svg#megaphone"></use>
+						            </svg>
+					            </span>
+					            <div class="feature-item">
+						            <h3>Consulting</h3>
+						            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+					            </div>
+				            </div>
+				        </div>
 				    </div>
 				</div>
 	        </div>
@@ -186,7 +257,7 @@
 		    </div>
 		    <div class="row">        
 		        <div class="col-12 justify-content-center list-works">
-		        	<ul class="nav justify-content-around justify-content-sm-center">
+		        	<ul class="nav justify-content-around justify-content-md-center">
 						<li class="nav-item">
 						    <a class="active btn btn-outline-primary btn-sm" href="#">All</a>
 						</li>
@@ -343,13 +414,14 @@
 		            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
 		        </div> 
 	        </div>
+
 	        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 			    <ol class="carousel-indicators">
 				    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 				    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
 				    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-				</ol>
-				<div class="carousel-inner">
+			    </ol>
+			    <div class="carousel-inner">
 				    <div class="carousel-item active">
 				        <div class="row cards">
 				        	<div class="col-12 col-sm-6 col-md-6 col-lg-3">
@@ -376,7 +448,7 @@
 												<li><a href="#">
 													<span class="icon-google">
 														<svg>
-															<use xlink:href="images/svg.svg#google"></use>
+															<use xlink:href="images/svg.svg#google2"></use>
 														</svg>
 													</span>
 												</a></li>
@@ -413,7 +485,7 @@
 												<li><a href="#">
 													<span class="icon-google">
 														<svg>
-															<use xlink:href="images/svg.svg#google"></use>
+															<use xlink:href="images/svg.svg#google2"></use>
 														</svg>
 													</span>
 												</a></li>
@@ -450,7 +522,7 @@
 												<li><a href="#">
 													<span class="icon-google">
 														<svg>
-															<use xlink:href="images/svg.svg#google"></use>
+															<use xlink:href="images/svg.svg#google2"></use>
 														</svg>
 													</span>
 												</a></li>
@@ -487,7 +559,7 @@
 												<li><a href="#">
 													<span class="icon-google">
 														<svg>
-															<use xlink:href="images/svg.svg#google"></use>
+															<use xlink:href="images/svg.svg#google2"></use>
 														</svg>
 													</span>
 												</a></li>
@@ -503,15 +575,315 @@
 			            </div>
 				    </div>
 				    <div class="carousel-item">
-				      <img src="..." class="d-block w-100" alt="...">
+				        <div class="row cards">
+				        	<div class="col-12 col-sm-6 col-md-6 col-lg-3">
+				        		<div class="card">
+				        			<div class="employee-content">
+										<img src="images/employee-01.jpg" class="card-img-top" alt="image description">
+										<div class="card-descr flex-column  justify-content-around justify-content-sm-between align-items-center">
+											<p><strong>Nemo enim ipsam voluptatem quia voluptas</strong><em class="d-sm-none d-md-block d-lg-none d-xl-block">sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</em></p>
+											<ul class="social d-flex justify-content-center">
+												<li><a href="#">
+													<span class="icon-twitter">
+														<svg>
+															<use xlink:href="images/svg.svg#twitter"></use>
+														</svg>
+													</span>
+												</a></li>
+												<li><a href="#">
+													<span class="icon-facebook">
+														<svg>
+															<use xlink:href="images/svg.svg#facebook"></use>
+														</svg>
+													</span>
+												</a></li>
+												<li><a href="#">
+													<span class="icon-google">
+														<svg>
+															<use xlink:href="images/svg.svg#google2"></use>
+														</svg>
+													</span>
+												</a></li>
+											</ul>
+										</div>
+									</div>	
+								    <div class="card-body">
+								        <h4 class="card-title">John Filmr Doe</h4>
+								        <p class="card-text">Managing Director</p>
+								    </div>
+							    </div>
+				        	</div>
+				        	<div class="col-12 col-sm-6 col-md-6 col-lg-3">
+				        		<div class="card">
+				        			<div class="employee-content">
+										<img src="images/employee-02.jpg" class="card-img-top" alt="image description">
+										<div class="card-descr flex-column  justify-content-around justify-content-sm-between align-items-center">
+											<p><strong>Nemo enim ipsam voluptatem quia voluptas</strong><em class="d-sm-none d-md-block d-lg-none d-xl-block">sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</em></p>
+											<ul class="social d-flex justify-content-center">
+												<li><a href="#">
+													<span class="icon-twitter">
+														<svg>
+															<use xlink:href="images/svg.svg#twitter"></use>
+														</svg>
+													</span>
+												</a></li>
+												<li><a href="#">
+													<span class="icon-facebook">
+														<svg>
+															<use xlink:href="images/svg.svg#facebook"></use>
+														</svg>
+													</span>
+												</a></li>
+												<li><a href="#">
+													<span class="icon-google">
+														<svg>
+															<use xlink:href="images/svg.svg#google2"></use>
+														</svg>
+													</span>
+												</a></li>
+											</ul>
+										</div>
+									</div>	
+								    <div class="card-body">
+								        <h4 class="card-title">Chystine Hineu</h4>
+								        <p class="card-text">Lead Designer</p>
+								    </div>
+							    </div>
+				        	</div>
+				        	<div class="col-12 col-sm-6 col-md-6 col-lg-3">
+				        		<div class="card">
+				        			<div class="employee-content">
+										<img src="images/employee-03.jpg" class="card-img-top" alt="image description">
+										<div class="card-descr flex-column  justify-content-around justify-content-sm-between align-items-center">
+											<p><strong>Nemo enim ipsam voluptatem quia voluptas</strong><em class="d-sm-none d-md-block d-lg-none d-xl-block">sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</em></p>
+											<ul class="social d-flex justify-content-center">
+												<li><a href="#">
+													<span class="icon-twitter">
+														<svg>
+															<use xlink:href="images/svg.svg#twitter"></use>
+														</svg>
+													</span>
+												</a></li>
+												<li><a href="#">
+													<span class="icon-facebook">
+														<svg>
+															<use xlink:href="images/svg.svg#facebook"></use>
+														</svg>
+													</span>
+												</a></li>
+												<li><a href="#">
+													<span class="icon-google">
+														<svg>
+															<use xlink:href="images/svg.svg#google2"></use>
+														</svg>
+													</span>
+												</a></li>
+											</ul>
+										</div>
+									</div>	
+								    <div class="card-body">
+								        <h4 class="card-title">Martin Matrone</h4>
+								        <p class="card-text">Lead Developer</p>
+								    </div>
+							    </div>
+				        	</div>
+				        	<div class="col-12 col-sm-6 col-md-6 col-lg-3">
+				        		<div class="card">
+				        			<div class="employee-content">
+										<img src="images/employee-04.jpg" class="card-img-top" alt="image description">
+										<div class="card-descr flex-column  justify-content-around justify-content-sm-between align-items-center">
+											<p><strong>Nemo enim ipsam voluptatem quia voluptas</strong><em class="d-sm-none d-md-block d-lg-none d-xl-block">sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</em></p>
+											<ul class="social d-flex justify-content-center">
+												<li><a href="#">
+													<span class="icon-twitter">
+														<svg>
+															<use xlink:href="images/svg.svg#twitter"></use>
+														</svg>
+													</span>
+												</a></li>
+												<li><a href="#">
+													<span class="icon-facebook">
+														<svg>
+															<use xlink:href="images/svg.svg#facebook"></use>
+														</svg>
+													</span>
+												</a></li>
+												<li><a href="#">
+													<span class="icon-google">
+														<svg>
+															<use xlink:href="images/svg.svg#google2"></use>
+														</svg>
+													</span>
+												</a></li>
+											</ul>
+										</div>
+									</div>	
+								    <div class="card-body">
+								        <h4 class="card-title">Steve Flaulkin</h4>
+								        <p class="card-text">Sr. UI Designer</p>
+								    </div>
+							    </div>
+				        	</div>
+			            </div>
 				    </div>
 				    <div class="carousel-item">
-				      <img src="..." class="d-block w-100" alt="...">
+				        <div class="row cards">
+				        	<div class="col-12 col-sm-6 col-md-6 col-lg-3">
+				        		<div class="card">
+				        			<div class="employee-content">
+										<img src="images/employee-01.jpg" class="card-img-top" alt="image description">
+										<div class="card-descr flex-column  justify-content-around justify-content-sm-between align-items-center">
+											<p><strong>Nemo enim ipsam voluptatem quia voluptas</strong><em class="d-sm-none d-md-block d-lg-none d-xl-block">sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</em></p>
+											<ul class="social d-flex justify-content-center">
+												<li><a href="#">
+													<span class="icon-twitter">
+														<svg>
+															<use xlink:href="images/svg.svg#twitter"></use>
+														</svg>
+													</span>
+												</a></li>
+												<li><a href="#">
+													<span class="icon-facebook">
+														<svg>
+															<use xlink:href="images/svg.svg#facebook"></use>
+														</svg>
+													</span>
+												</a></li>
+												<li><a href="#">
+													<span class="icon-google">
+														<svg>
+															<use xlink:href="images/svg.svg#google2"></use>
+														</svg>
+													</span>
+												</a></li>
+											</ul>
+										</div>
+									</div>	
+								    <div class="card-body">
+								        <h4 class="card-title">John Filmr Doe</h4>
+								        <p class="card-text">Managing Director</p>
+								    </div>
+							    </div>
+				        	</div>
+				        	<div class="col-12 col-sm-6 col-md-6 col-lg-3">
+				        		<div class="card">
+				        			<div class="employee-content">
+										<img src="images/employee-02.jpg" class="card-img-top" alt="image description">
+										<div class="card-descr flex-column  justify-content-around justify-content-sm-between align-items-center">
+											<p><strong>Nemo enim ipsam voluptatem quia voluptas</strong><em class="d-sm-none d-md-block d-lg-none d-xl-block">sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</em></p>
+											<ul class="social d-flex justify-content-center">
+												<li><a href="#">
+													<span class="icon-twitter">
+														<svg>
+															<use xlink:href="images/svg.svg#twitter"></use>
+														</svg>
+													</span>
+												</a></li>
+												<li><a href="#">
+													<span class="icon-facebook">
+														<svg>
+															<use xlink:href="images/svg.svg#facebook"></use>
+														</svg>
+													</span>
+												</a></li>
+												<li><a href="#">
+													<span class="icon-google">
+														<svg>
+															<use xlink:href="images/svg.svg#google2"></use>
+														</svg>
+													</span>
+												</a></li>
+											</ul>
+										</div>
+									</div>	
+								    <div class="card-body">
+								        <h4 class="card-title">Chystine Hineu</h4>
+								        <p class="card-text">Lead Designer</p>
+								    </div>
+							    </div>
+				        	</div>
+				        	<div class="col-12 col-sm-6 col-md-6 col-lg-3">
+				        		<div class="card">
+				        			<div class="employee-content">
+										<img src="images/employee-03.jpg" class="card-img-top" alt="image description">
+										<div class="card-descr flex-column  justify-content-around justify-content-sm-between align-items-center">
+											<p><strong>Nemo enim ipsam voluptatem quia voluptas</strong><em class="d-sm-none d-md-block d-lg-none d-xl-block">sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</em></p>
+											<ul class="social d-flex justify-content-center">
+												<li><a href="#">
+													<span class="icon-twitter">
+														<svg>
+															<use xlink:href="images/svg.svg#twitter"></use>
+														</svg>
+													</span>
+												</a></li>
+												<li><a href="#">
+													<span class="icon-facebook">
+														<svg>
+															<use xlink:href="images/svg.svg#facebook"></use>
+														</svg>
+													</span>
+												</a></li>
+												<li><a href="#">
+													<span class="icon-google">
+														<svg>
+															<use xlink:href="images/svg.svg#google2"></use>
+														</svg>
+													</span>
+												</a></li>
+											</ul>
+										</div>
+									</div>	
+								    <div class="card-body">
+								        <h4 class="card-title">Martin Matrone</h4>
+								        <p class="card-text">Lead Developer</p>
+								    </div>
+							    </div>
+				        	</div>
+				        	<div class="col-12 col-sm-6 col-md-6 col-lg-3">
+				        		<div class="card">
+				        			<div class="employee-content">
+										<img src="images/employee-04.jpg" class="card-img-top" alt="image description">
+										<div class="card-descr flex-column  justify-content-around justify-content-sm-between align-items-center">
+											<p><strong>Nemo enim ipsam voluptatem quia voluptas</strong><em class="d-sm-none d-md-block d-lg-none d-xl-block">sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</em></p>
+											<ul class="social d-flex justify-content-center">
+												<li><a href="#">
+													<span class="icon-twitter">
+														<svg>
+															<use xlink:href="images/svg.svg#twitter"></use>
+														</svg>
+													</span>
+												</a></li>
+												<li><a href="#">
+													<span class="icon-facebook">
+														<svg>
+															<use xlink:href="images/svg.svg#facebook"></use>
+														</svg>
+													</span>
+												</a></li>
+												<li><a href="#">
+													<span class="icon-google">
+														<svg>
+															<use xlink:href="images/svg.svg#google2"></use>
+														</svg>
+													</span>
+												</a></li>
+											</ul>
+										</div>
+									</div>	
+								    <div class="card-body">
+								        <h4 class="card-title">Steve Flaulkin</h4>
+								        <p class="card-text">Sr. UI Designer</p>
+								    </div>
+							    </div>
+				        	</div>
+			            </div>
 				    </div>
-				</div>					  
-			</div>
-	    </div>
-	</div>
+			    </div>
+			</div>			  
+		</div>
+    </div>
+
+
 
 	<div class="facts-wrapper">
 		<div class="facts-content-wrapper">
@@ -582,7 +954,7 @@
 		        </div> 
 	        </div>
 	        <div class="row box-adress">
-	        	<div class="col-sm-12 col-md-4 col-lg-3 contact-adress">
+	        	<div class="col-sm-12 col-md-4 col-lg-3 pl-lg-0 contact-adress">
         			<p>Cras at ultrices erat, sed vulputate!</p>
         		 	<adress class="adress-descr">
 	        			<span class="d-block">2345 Setwant natrer, 1234, Washington. United States.</span>
@@ -591,7 +963,7 @@
 	        			<a href="wwww.brandi.com">www.brandi.com</a>
 	        		</adress>
 	        	</div>
-	        	<div class="col-sm-12 col-md-8 form-descr">
+	        	<div class="col-sm-12 col-md-8 pl-lg-2 pr-lg-1 form-descr">
 	        		<h3>Say hello!</h3>
 	        		<form action="#">
 		        		<div class="row form-row">
@@ -641,6 +1013,7 @@
 			<img src="images/map.png" alt="maps">
 		</div>
 	</div>
+
 	<footer class="footer-wrapper d-flex align-items-center">
 		<div class="container">
 			<div class="row footer-descr">
@@ -657,13 +1030,12 @@
 								<use xlink:href="images/svg.svg#arrow-right"></use>
 							</svg>
 						</button>
-
 					</form>
 					<p>eusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 				</div>
 				<div class="col-md-6 col-lg-3">
 					<h5>Explore</h5>
-					<div class="explore-list-wrapper d-flex justify-content-around justify-content-md-between">
+					<div class="explore-list-wrapper d-flex justify-content-around justify-content-md-start">
 						<ul class="explore-list">
 							<li><a href="#">Envato</a></li>
 							<li><a href="#">Themecurve</a></li>
@@ -692,9 +1064,9 @@
 		</div>
 	</footer>            
 
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <script src="//cdn.jsdelivr.net/jquery.touchswipe/1.6.5/jquery.touchSwipe.min.js"></script>
   <script src="js/main.js"></script>
 </body>
